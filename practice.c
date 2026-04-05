@@ -22,7 +22,6 @@ Challenge : Print the result rounded to exactly 2 decimal places(e.g., 100.50).*
 //     return 0;
 // }
 
-
 // 2. The ASCII "Spy" Program This will help you understand why the compiler says char is an int.
 /* Problem: Ask the user to enter a single character using %c.
 Output: Print that character, then on the next line, print its Integer (ASCII) value using %d.
@@ -59,3 +58,27 @@ Challenge: Try to write the fraction 9/5 in a way that C doesn't treat it as "1"
 //     printf("temp in fernfite is %f", fernhite);
 //     return 0;
 // }
+
+// 4. The "Big Swap" (No Third Variable) This is a classic interview puzzle for Junior Developers.
+// Problem: Take two integers a and b from the user.
+// Task: Swap their values so that a holds b's value and vice-versa.
+// Hard Mode: Do it without creating a third variable like temp.
+
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    int b;
+    scanf("%d", &a);
+    scanf("%d", &b);
+
+    a = a + b;
+    b = a - b;
+    a = a - b;
+
+    printf("the new value of a is %d \n", a);
+    printf("the new value of b is %d \n", b);
+
+    return 0;
+}
