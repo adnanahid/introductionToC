@@ -27,19 +27,19 @@ Challenge : Print the result rounded to exactly 2 decimal places(e.g., 100.50).*
 Output: Print that character, then on the next line, print its Integer (ASCII) value using %d.
 Example Input: A → Output: Character: A, ASCII Value: 65.*/
 
-#include <stdio.h>
+// #include <stdio.h>
 
-int main()
-{
+// int main()
+// {
 
-    char alphabet;
-    scanf("%c", &alphabet);
+//     char alphabet;
+//     scanf("%c", &alphabet);
 
-    printf("the char is \"%c\" \n", alphabet);
-    printf("the char ascii valuse is %d", alphabet);
+//     printf("the char is \"%c\" \n", alphabet);
+//     printf("the char ascii valuse is %d", alphabet);
 
-    return 0;
-}
+//     return 0;
+// }
 
 // 3. Temperature Converter (Celsius to Fahrenheit)Since you are a Physics student, you'll use these conversions often!
 
@@ -47,14 +47,14 @@ int main()
 Formula: $F = (C \times \frac{9}{5}) + 32$
 Challenge: Try to write the fraction 9/5 in a way that C doesn't treat it as "1" (Integer Division). Use 9.0 / 5.0.*/
 
-// #include <stdio.h>
+#include <stdio.h>
 
-// int main()
-// {
-//     float celcius;
-//     scanf("%f", &celcius);
-//     float fernhite;
-//     fernhite = (celcius * (9.0 / 5.0)) + 32;
-//     printf("temp in fernfite is %f", fernhite);
-//     return 0;
-// }
+int main()
+{
+    float celcius;
+    scanf("%f", &celcius);
+    float fernhite;
+    fernhite = (celcius * (9.0 / 5.0)) + 32;
+    printf("temp in fernfite is %f", fernhite);
+    return 0;
+}
