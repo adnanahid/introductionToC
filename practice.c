@@ -64,21 +64,24 @@ Challenge: Try to write the fraction 9/5 in a way that C doesn't treat it as "1"
 // Task: Swap their values so that a holds b's value and vice-versa.
 // Hard Mode: Do it without creating a third variable like temp.
 
-#include <stdio.h>
+// #include <stdio.h>
 
-int main()
-{
-    int a;
-    int b;
-    scanf("%d", &a);
-    scanf("%d", &b);
+// int main()
+// {
+//     int a;
+//     int b;
+//     scanf("%d", &a);
+//     scanf("%d", &b);
 
-    a = a + b;
-    b = a - b;
-    a = a - b;
+//     a = a + b;
+//     b = a - b;
+//     a = a - b;
 
-    printf("the new value of a is %d \n", a);
-    printf("the new value of b is %d \n", b);
+//     printf("the new value of a is %d \n", a);
+//     printf("the new value of b is %d \n", b);
 
-    return 0;
-}
+//     return 0;
+// }
+
+
+
