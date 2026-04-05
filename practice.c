@@ -22,6 +22,7 @@ int main()
     return 0;
 }
 
+
 // 2. The ASCII "Spy" Program This will help you understand why the compiler says char is an int.
 /* Problem: Ask the user to enter a single character using %c.
 Output: Print that character, then on the next line, print its Integer (ASCII) value using %d.
