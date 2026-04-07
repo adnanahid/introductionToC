@@ -88,18 +88,18 @@
 // Task: Use a single if statement with Logical Operators (&&) to check if a triangle can be formed.
 // Output: Print "Valid Triangle" or "Invalid Triangle."
 
-#include <stdio.h>
-int main()
-{
-    int a, b, c;
-    scanf("%d %d %d", &a, &b, &c);
-    if (a + b > c && a + c > b && b + c > a)
-    {
-        printf("triangle is valid");
-    }
-    else
-    {
-        printf("triangle is invalid");
-    }
-    return 0;
-}
+// #include <stdio.h>
+// int main()
+// {
+//     int a, b, c;
+//     scanf("%d %d %d", &a, &b, &c);
+//     if (a + b > c && a + c > b && b + c > a)
+//     {
+//         printf("triangle is valid");
+//     }
+//     else
+//     {
+//         printf("triangle is invalid");
+//     }
+//     return 0;
+// }
