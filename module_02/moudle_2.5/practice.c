@@ -72,3 +72,10 @@
 //     }
 //     return 0;
 // }
+
+#include <stdio.h>
+int main()
+{   int n;
+    printf("Enter a number: ", n);
+    return 0;
+}
