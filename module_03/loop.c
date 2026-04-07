@@ -54,3 +54,39 @@
 //     }
 //     return 0;
 // }
+
+// 4. The "Star Pyramid" (Nested Loops - Advanced)
+// This is the ultimate test of "Spatial Logic." You need a loop inside another loop.
+// Problem: Ask the user for the number of rows (e.g., 4).
+// Output:
+// Plaintext
+//    *
+//   ***
+//  *****
+// *******
+
+#include <stdio.h>
+
+int main() {
+    int n;
+    printf("Enter number of rows: \n");
+    scanf("%d", &n);
+
+    for (int i = 1; i <= n; i++) {
+
+        // 1. Print spaces (Decreases as i increases)
+        for (int j = 1; j <= (n - i); j++) {
+            printf(" ");
+        }
+
+        // 2. Print stars (Increases as i increases)
+        for (int k = 1; k <= (2 * i - 1); k++) {
+            printf("*");
+        }
+
+        // 3. Move to the next line
+        printf("\n");
+    }
+
+    return 0;
+}
