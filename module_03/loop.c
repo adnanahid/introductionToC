@@ -128,14 +128,24 @@
 
 // You've learned about variables, right? Now its time to practice them. You need to take an integer A, a very big integer B, a floating value  C and a character D as input and output them serially.
 
-#include <stdio.h>
+// #include <stdio.h>
 
+// int main() {
+//     int A;
+//     long long int B;
+//     float C;
+//     char D;
+//     scanf("%d %lld %f %c", &A, &B, &C, &D);
+//     printf("%d\n%lld\n%.2f\n%c", A, B, C, D);
+//     return 0;
+// }
+
+#include <stdio.h>
 int main() {
-    int A;
-    long long int B;
-    float C;
-    char D;
-    scanf("%d %lld %f %c", &A, &B, &C, &D);
-    printf("%d\n%lld\n%.2f\n%c", A, B, C, D);
+    int n;
+    scanf("%d", &n);
+    for (int i = 1; i <= n; i++) {
+        printf("I Love Practice\n");
+    }
     return 0;
 }
