@@ -85,3 +85,43 @@
 
 //     return 0;
 // }
+
+// #include <stdio.h>
+
+// int main() {
+//     int n;
+//     int sum = 0;
+//     scanf("%d", &n);
+//     for (int i = 1; i <= n; i++) {
+//         sum += i;
+//     }
+//     printf("%d", sum);
+//     return 0;
+// }
+
+//  problem: find the guessed number
+// #include <stdio.h>
+// int main() {
+//     int n;
+//     scanf("%d", &n);
+//     int guess;
+//     do {
+//         scanf("%d", &guess);
+//         if (guess < n) {
+//             printf("Too low! Try again.\n");
+//         } else if (guess > n) {
+//             printf("Too high! Try again.\n");
+//         } else {
+//             printf("Congratulations! You guessed the number.\n");
+//         }
+//     } while (guess != n);
+//     return 0;
+// }
+
+// #include <stdio.h>
+// int main() {
+//     int a, b;
+//     scanf("%d %d", &a, &b);
+//     printf("%d", a + b);
+//     return 0;
+// }
