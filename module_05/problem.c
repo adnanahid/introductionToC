@@ -122,6 +122,7 @@
 //     return 0;
 // }
 
+// problem 08: Case Converter Write a program that takes a single character as input and converts it to the opposite case. If the character is uppercase, convert it to lowercase, and if it's lowercase, convert it to uppercase.
 // #include <stdio.h>
 
 // int main() {
@@ -137,3 +138,35 @@
 //     return 0;
 // }
 
+// problem 09: Given a letter X. Determine whether X is Digit or Alphabet and if it is Alphabet determine if it is Capital Case or Small Case.
+
+// #include <stdio.h>
+
+// int main() {
+//     char X;
+//     scanf("%c", &X);
+//     int ASCII = X;
+//     if (X >= 48 && X <= 57) {
+//         printf("IS DIGIT");
+//     } else if (X >= 65 && X <= 90) {
+//         printf("ALPHA\nIS CAPITAL");
+//     } else if (X >= 97 && X <= 122) {
+//           printf("ALPHA\nIS SMALL");
+//     }
+//     return 0;
+// }
+
+// problem 10: Given 3 numbers A, B and C, Print the minimum and the maximum numbers.
+
+#include <stdio.h>
+
+int main() {
+    int A, B, C, max, min;
+    scanf("%d %d %d", &A, &B, &C);
+    max = (A > B) ? (A > C) ? A : C : (B > C) ? B
+                                              : C;
+    min = (A < B) ? (A < C) ? A : C : (B < C) ? B
+                                              : C;
+    printf("%d %d", min, max);
+    return 0;
+}
