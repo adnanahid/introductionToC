@@ -44,3 +44,96 @@
 //     X % 2 == 0 ? printf("EVEN") : printf("ODD");
 //     return 0;
 // }
+
+// problem 04: Write a program that takes an integer from the user and calculates how many digits it has.
+
+// #include <stdio.h>
+
+// int main() {
+//     int X, totalDigit = 0;
+//     if (scanf("%d", &X) != 1)
+//         return 0;
+//     if (X < 0)
+//         X = -X;
+//     do {
+//         X /= 10;
+//         totalDigit++;
+
+//     } while (X > 0);
+//     printf("%d", totalDigit);
+//     return 0;
+// }
+
+// problem 05: Calculate the sum of all digits in a given number.
+
+// #include <stdio.h>
+
+// int main() {
+//     int X;
+//     if (scanf("%d", &X) != 1)
+//         return 1;
+//     if (X < 0)
+//         X = -X;
+//     int sum = 0;
+//     while (X != 0) {
+//         sum += X % 10;
+//         X /= 10;
+//     }
+//     printf("%d", sum);
+//     return 0;
+// }
+
+// problem 06: Big swap Now, let's see if you can take it a step further. Instead of adding the digits together (like $1+2+3$), I want you to "glue" them back together in reverse order.
+
+// #include <stdio.h>
+
+// int main() {
+//     int x, reversedNumber = 0;
+//     scanf("%d", &x);
+//     while (x != 0) {
+//         reversedNumber = (reversedNumber * 10) + (x % 10);
+//         x /= 10;
+//     }
+//     printf("%d", reversedNumber);
+//     return 0;
+// }
+
+// problem 07: The Palindrome Challenge (The Final Boss) Now that you have the reversal logic, you can solve the Palindrome problem. A number is a palindrome if it reads the same forward and backward (like 121, 1331, or 7).
+
+// #include <stdio.h>
+
+// int main() {
+//     int x, reversedNumber = 0, originalX;
+//     if (scanf("%d", &x) != 1)
+//         return 1;
+//     originalX = x;
+
+//     if (x < 0)
+//         x = -x;
+//     while (x != 0) {
+//         reversedNumber = (reversedNumber * 10) + (x % 10);
+//         x /= 10;
+//     }
+//     if (reversedNumber == originalX) {
+//         printf("Palindrome");
+//     } else {
+//         printf("Not Palindrome");
+//     }
+//     return 0;
+// }
+
+// #include <stdio.h>
+
+// int main() {
+//     char x;
+//     scanf("%c", &x);
+//     int ASCII = x;
+//     if (ASCII > 96) {
+//         printf("%c", ASCII - 32);
+//     } else {
+//         printf("%c", ASCII + 32);
+//     }
+
+//     return 0;
+// }
+
