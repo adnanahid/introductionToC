@@ -128,11 +128,10 @@
 // int main() {
 //     char x;
 //     scanf("%c", &x);
-//     int ASCII = x;
-//     if (ASCII > 96) {
-//         printf("%c", ASCII - 32);
+//     if (x >= 'a' && x <= 'z') {
+//         printf("%c", x - 32);
 //     } else {
-//         printf("%c", ASCII + 32);
+//         printf("%c", x + 32);
 //     }
 
 //     return 0;
@@ -158,15 +157,97 @@
 
 // problem 10: Given 3 numbers A, B and C, Print the minimum and the maximum numbers.
 
-#include <stdio.h>
+// #include <stdio.h>
 
-int main() {
-    int A, B, C, max, min;
-    scanf("%d %d %d", &A, &B, &C);
-    max = (A > B) ? (A > C) ? A : C : (B > C) ? B
-                                              : C;
-    min = (A < B) ? (A < C) ? A : C : (B < C) ? B
-                                              : C;
-    printf("%d %d", min, max);
-    return 0;
-}
+// int main() {
+//     int A, B, C, max, min;
+//     scanf("%d %d %d", &A, &B, &C);
+//     max = (A > B) ? (A > C) ? A : C : (B > C) ? B
+//                                               : C;
+//     min = (A < B) ? (A < C) ? A : C : (B < C) ? B
+//                                               : C;
+//     printf("%d %d", min, max);
+//     return 0;
+// }
+
+// problem 11: L. The Brothers
+// Given two person names.
+// Each person has {"the first name" + "the second name"}
+// Determine whether they are brothers or not. Note: The two persons are brothers if they share the same second name.
+
+// #include <stdio.h>
+
+// int main() {
+//     char firstName1[100], secondName1[100], firstName2[100], secondName2[100];
+//     scanf("%s %s", firstName1, secondName1);
+//     scanf("%s %s", firstName2, secondName2);
+//     if (strcmp(secondName1, secondName2) == 0) {
+//         printf("ARE Brothers");
+//     } else {
+//         printf("NOT");
+//     }
+//     return 0;
+// }
+
+// problem 12: Given two numbers X and Y. Print the summation and multiplication and subtraction of these 2 numbers.
+
+// #include <stdio.h>
+
+// int main() {
+//     long long int X, Y;
+//     scanf("%lld %lld", &X, &Y);
+//     printf("%lld + %lld = %lld\n", X, Y, X + Y);
+//     printf("%lld * %lld = %lld\n", X, Y, X * Y);
+//     printf("%lld - %lld = %lld\n", X, Y, X - Y);
+//     return 0;
+// }
+
+// problem 13 : Given four numbers A, B, C and D.Print the result of the following equation :
+//     X = (A * B) - (C * D).
+
+// #include <stdio.h>
+
+// int main() {
+//     long long int A, B, C, D;
+//     scanf("%lld %lld %lld %lld", &A, &B, &C, &D);
+//     long long int first = A * B;
+//     long long int second = C * D;
+//     printf("Difference = %lld", first - second);
+//     return 0;
+// }
+
+// problem 14 => O. Calculator. Given a mathematical expression. The expression will be one of the following expressions: A+B
+// , A−B
+// , A∗B
+//  and A/B
+// .
+
+// Print the result of the mathematical expression.
+
+// Input
+// Only one line contains A,S
+//  and B
+//  (1≤A,B≤104)
+// , S
+//  is either (+,−,∗,/)
+// .
+// #include <stdio.h>
+
+// int main() {
+//     int A, B;
+//     char S;
+//     scanf("%d %c %d", &A, &S, &B);
+//     if (S == '+') {
+//         printf("%d", A + B);
+//     }
+//     if (S == '-') {
+//         printf("%d", A - B);
+//     }
+//     if (S == '*') {
+//         printf("%d", A * B);
+//     }
+//     if (S == '/') {
+//         printf("%d", A / B);
+//     }
+//     return 0;
+// }
