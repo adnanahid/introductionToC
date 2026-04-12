@@ -44,7 +44,7 @@
 
 // int main() {
 //     double A, B;
-    
+
 //     // Using %lf for scanning into double variables
 //     if (scanf("%lf %lf", &A, &B) != 2) return 0;
 
@@ -58,3 +58,49 @@
 
 //     return 0;
 // }
+
+// problem Q: Coordinates of a Point Given two numbers X, Y which donate coordinates of a point in 2D plan.Determine in which quarter does it belong.
+// Note : Print Q1, Q2, Q3, Q4 according to the quarter in which the point belongs to.Print "Origem" If the point is at the origin.Print "Eixo X" If the point is over X axis.Print "Eixo Y" if the point is over Y axis.
+
+// #include <stdio.h>
+
+// int main() {
+//     float X, Y;
+//     scanf("%f %f", &X, &Y);
+//     if (X > 0 && Y > 0) {
+//         printf("Q1\n");
+//     }
+//     if (X < 0 && Y > 0) {
+//         printf("Q2\n");
+//     }
+//     if (X < 0 && Y < 0) {
+//         printf("Q3\n");
+//     }
+//     if (X > 0 && Y < 0) {
+//         printf("Q4\n");
+//     }
+//     if (X == 0 && Y == 0) {
+//         printf("Origem\n");
+//     }
+//     if (X == 0 && Y != 0) {
+//         printf("Eixo Y\n");
+//     }
+//     if (Y == 0 && X != 0) {
+//         printf("Eixo X\n");
+//     }
+//     return 0;
+// }
+
+#include <stdio.h>
+
+int main() {
+    int days, years, months;
+    scanf("%d", &days);
+    years = days / 365;
+    months = (days - (years * 365)) / 30;
+    days = (days - (years * 365) - (months * 30));
+    printf("%d years\n", years);
+    printf("%d months\n", months);
+    printf("%d days\n", days);
+    return 0;
+}
