@@ -17808,6 +17808,94 @@
         501.6666666666665,
         -50
       ]
+    },
+    {
+      "id": "wllH0Xcx9uxu2cFdr9GPt",
+      "type": "freedraw",
+      "x": -704.0595238095241,
+      "y": -8423.488095238097,
+      "width": 0.0001,
+      "height": 0.0001,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b2N",
+      "roundness": null,
+      "seed": 1920356495,
+      "version": 3,
+      "versionNonce": 590798785,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1776013633607,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0.0001,
+          0.0001
+        ]
+      ],
+      "pressures": [],
+      "simulatePressure": true,
+      "lastCommittedPoint": [
+        0.0001,
+        0.0001
+      ]
+    },
+    {
+      "id": "Ipuz3U3p5P8AjaXaWBShr",
+      "type": "freedraw",
+      "x": -747.3928571428573,
+      "y": -9030.154761904763,
+      "width": 0.0001,
+      "height": 0.0001,
+      "angle": 0,
+      "strokeColor": "#1e1e1e",
+      "backgroundColor": "transparent",
+      "fillStyle": "solid",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "frameId": null,
+      "index": "b2O",
+      "roundness": null,
+      "seed": 1504579855,
+      "version": 3,
+      "versionNonce": 167540545,
+      "isDeleted": false,
+      "boundElements": null,
+      "updated": 1776013636082,
+      "link": null,
+      "locked": false,
+      "points": [
+        [
+          0,
+          0
+        ],
+        [
+          0.0001,
+          0.0001
+        ]
+      ],
+      "pressures": [],
+      "simulatePressure": true,
+      "lastCommittedPoint": [
+        0.0001,
+        0.0001
+      ]
     }
   ],
   "appState": {
