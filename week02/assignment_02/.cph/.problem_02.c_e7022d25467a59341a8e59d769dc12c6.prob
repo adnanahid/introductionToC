@@ -1,0 +1,1 @@
+{"name":"Local: problem_02","url":"/home/adnan/phitron/semester01/introductionToC/week02/assignment_02/problem_02.c","tests":[{"id":1776355744277,"input":"5","output":"1 2 3 4 5 "}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/adnan/phitron/semester01/introductionToC/week02/assignment_02/problem_02.c","group":"local","local":true}
