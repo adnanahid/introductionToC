@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": false,
-      "cwd": "/home/adnan/phitron/semester01/introductionToC/week03/module_09",
-      "program": "/home/adnan/phitron/semester01/introductionToC/week03/module_09/build/Debug/outDebug",
+      "cwd": "/home/adnan/phitron/semester01/introductionToC/week02/practiceContest/contest859div4",
+      "program": "/home/adnan/phitron/semester01/introductionToC/week02/practiceContest/contest859div4/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
