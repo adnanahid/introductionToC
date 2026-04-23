@@ -1,4 +1,4 @@
-// string copy
+//! string copy
 
 // #include <stdio.h>
 // #include <string.h>
@@ -25,31 +25,56 @@
 //     return 0;
 // }
 
-// string concatenation
-#include <stdio.h>
-#include <string.h>
+//! string concatenation
 
-int main() {
-    char a[101], b[101];
-    scanf("%s %s", a, b);
+// #include <stdio.h>
+// #include <string.h>
 
-    // int length_a = strlen(a);
-    // int length_b = strlen(b);
+// int main() {
+//     char a[101], b[101];
+//     scanf("%s %s", a, b);
 
-    // for (int i = length_a; i < length_a + length_b; i++) {
-    //     a[i] = b[i - length_a];
+// int length_a = strlen(a);
+// int length_b = strlen(b);
+
+// for (int i = length_a; i < length_a + length_b; i++) {
+//     a[i] = b[i - length_a];
+// }
+
+// a[length_a + length_b] = '\0';
+// printf("%s", a);
+
+// for (int i = 0; i <= length_b; i++) {
+//     a[length_a + i] = b[i];
+// }
+// printf("%s", a);
+
+// strcat(a, b);
+// printf("%s", a);
+
+//     return 0;
+// }
+
+//! string compare
+
+// #include <stdio.h>
+// #include <string.h>
+
+// int main() {
+//     char a[101], b[101];
+//     scanf("%s %s", a, b);
+    // int max_length = (strlen(a) >= strlen(b)) ? strlen(a) : strlen(b);
+    // for (int i = 0; i < max_length; i++) {
+    //     if (a[i] == b[i]) {
+    //         continue;
+    //     } else if (a[i] > b[i]) {
+    //         printf("A is bigger");
+    //         break;
+    //     } else {
+    //         printf("B is bigger");
+    //         break;
+    //     }
     // }
-
-    // a[length_a + length_b] = '\0';
-    // printf("%s", a);
-
-    // for (int i = 0; i <= length_b; i++) {
-    //     a[length_a + i] = b[i];
-    // }
-    // printf("%s", a);
-
-    strcat(a, b);
-    printf("%s", a);
-
-    return 0;
-}
+//     strcmp(a, b) > 0 ? printf("A is bigger") : printf("B is bigger");
+//     return 0;
+// }
