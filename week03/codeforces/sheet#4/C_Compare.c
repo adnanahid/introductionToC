@@ -1,18 +1,17 @@
 #include <stdio.h>
-#include <string.h>
 
 int main() {
-    char x[21], y[21];
-    
-    if (scanf("%s %s", x, y) != 2) {
-        return 0;
-    }
+    char x[100], y[100];
+    scanf("%s %s", x, y);
 
-    if (strcmp(x, y) <= 0) {
+    int i = 0;
+    while (x[i] != '\0' && y[i] != '\0' && x[i] == y[i]) {
+        i++;
+    }
+    if (x[i] <= y[i])
         printf("%s\n", x);
-    } else {
+    else {
         printf("%s\n", y);
     }
-
     return 0;
 }
