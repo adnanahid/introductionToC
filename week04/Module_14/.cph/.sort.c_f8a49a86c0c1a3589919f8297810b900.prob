@@ -1,0 +1,1 @@
+{"name":"Local: sort","url":"/home/adnan/phitron/semester01/introductionToC/week04/Module_14/sort.c","tests":[{"id":1777780248447,"input":"9\n9 7 5 6 2 8 4 1 3","output":"1 2 3 4 5 6 7 8 9"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/adnan/phitron/semester01/introductionToC/week04/Module_14/sort.c","group":"local","local":true}
