@@ -5,8 +5,10 @@ int compare(const void *a, const void *b) {
     long long x = *(const long long *)a;
     long long y = *(const long long *)b;
 
-    if (x < y) return -1;
-    if (x > y) return 1;
+    if (x < y)
+        return -1;
+    if (x > y)
+        return 1;
     return 0;
 }
 
@@ -19,11 +21,9 @@ void binarySearch(int n, long long arr[], long long target) {
         if (arr[mid] == target) {
             printf("found\n");
             return;
-        }
-        else if (arr[mid] < target) {
+        } else if (arr[mid] < target) {
             start = mid + 1;
-        }
-        else {
+        } else {
             end = mid - 1;
         }
     }
@@ -36,7 +36,6 @@ int main() {
     scanf("%d %d", &n, &q);
 
     long long arr[n];
-
     for (int i = 0; i < n; i++)
         scanf("%lld", &arr[i]);
 
@@ -45,7 +44,6 @@ int main() {
     while (q--) {
         long long target;
         scanf("%lld", &target);
-
         binarySearch(n, arr, target);
     }
 
