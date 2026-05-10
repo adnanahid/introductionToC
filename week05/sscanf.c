@@ -1,0 +1,1 @@
+// sscanf(source_string, format_string, variable1, variable2, ...);
