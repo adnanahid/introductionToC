@@ -2,8 +2,7 @@
 #include <stdlib.h>
 
 int compare(const void *a, const void *b) {
-    return (*(int *)a - *(int *)b);
-    return 0;
+    return *(int *)a - *(int *)b;
 }
 
 int main() {
@@ -11,19 +10,20 @@ int main() {
     scanf("%d %d", &n, &k);
 
     int a[n];
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < n; i++) {
         scanf("%d", &a[i]);
-
-    qsort(a, n, sizeof(int), compare);
-
-    long long int sum = 0;
-    int count = 0;
-    for (int i = n - 1; i >= 0 && count < k; i--) {
-        if (a[i] > 0) {
-            sum += a[i];
-            count++;
-        }
     }
-    printf("%lld", sum);
+
+    qsort(a, n, 4, compare);
+
+    long long sum = 0;
+    int count = 0;
+    for (int i = 0; i >= 0 && count < k; i++) {
+        sum += a[i];
+        count++;
+    }
+
+    printf("%lld\n", sum);
+
     return 0;
 }
